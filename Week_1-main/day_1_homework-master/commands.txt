@@ -1,0 +1,55 @@
+Part 1
+Complete all work inside the star_wars folder.
+
+Create a directory called death_star, and make the following files inside of it: darth_vader.txt, princess_leia.txt, storm_trooper.txt
+
+Create a directory called galaxy_far_far_away, and inside of it make a directory named tatooine and create the following files in it: luke.txt, ben_kenobi.txt.
+
+Inside of tatooine make a directory called millenium_falcon, and in it create: han_solo.txt, chewbaca.txt
+
+Part 2
+Rename ben_kenobi.txt to obi_wan.txt.
+
+Part 3
+Copy storm_trooper.txt from death_star to tatooine.
+
+Part 4
+Move luke.txt and obi_wan.txt to the millenium_falcon.
+
+Move millenium_falcon out of tatooine and into galaxy_far_far_away.
+
+Move millenium_falcon into death_star.
+
+Move princess_leia.txt into the millenium_falcon.
+
+Part 5
+Delete obi_wan.txt.
+
+Part 6
+In galaxy_far_far_away, make a directory called yavin_4.
+
+Move the millenium_falcon out of the death_star and into yavin_4.
+
+Make a directory in yavin_4 called x_wing.
+
+Move princess_leia.txt to yavin_4 and luke.txt to x_wing.
+
+Move the millenium_falcon and x_wing out of yavin_4 and into galaxy_far_far_away.
+
+In death_star, create directories for tie_fighter_1, tie_fighter_2 and tie_fighter_3.
+
+Move darth_vader.txt into tie_fighter_1.
+
+Make a copy of storm_trooper.txt in both tie_fighter_2 and tie_fighter_3.
+
+Move all of the tie_fighters out of the death_star and into galaxy_far_far_away.
+
+Part 7
+Remove tie_fighter_2 and tie_fighter_3.
+
+Part 8
+Create a file in x_wing called the_force.txt.
+
+Destroy the death_star and anyone inside of it.
+
+Return x_wing and the millenium_falcon to yavin_4.

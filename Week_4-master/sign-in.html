@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign-in-styles.css">
+</head>
+<body>
+    <header>
+        <h1> Welcome to the Eyeth Job Board! </h1>
+        <sub>The #1 job site for the Deaf community</sub>
+    </header>
+   
+    <div class="container">
+        <div class="form-container">
+            <form id="loginForm" class="form">
+                <h2>Login</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Input your email">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Input your password" required>
+                <button type="submit">Login</button>
+            </form>
+
+            <form id="registerForm" class="form">
+                <h2>Register</h2>
+                <label for="newUsername">Username:</label>
+                <input type="text" id="newUsername" name="newUsername"  placeholder="Input your email" required>
+                <label for="newPassword">Password:</label>
+                <input type="password" id="newPassword" name="newPassword" placeholder="Input your password" required>
+                <button type="submit">Register</button>
+            </form>
+
+            <div class="social-buttons">
+                <button class="google-button" onclick="googleAlert()">Login with Google</button>
+                <button class="facebook-button" onclick="facebookAlert()">Login with Facebook</button>
+            </div>
+
+            <div class="toggle-section">
+                <span class="light-to-dark">Light Mode</span>
+                <label class="switch"> 
+                    <input type="checkbox" id="modeToggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            
+        </div>
+    </div>
+      
+    
+    <script src="sign-in-script.js"></script>
+</body>
+</html>

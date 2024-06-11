@@ -1,0 +1,1 @@
+This homework submission is to focus on CSS layouts and etc

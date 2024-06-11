@@ -1,0 +1,1 @@
+export const Giant_Bomb_API_Key = 'c06d30ecb95d404577ccedc1f3bc295f191f7b39';

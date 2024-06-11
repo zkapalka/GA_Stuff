@@ -1,0 +1,1 @@
+This is my personal portoflio, subject to updates and etc as my career evolves.
