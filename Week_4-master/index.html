@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            
+            <h1>Eyeth Job Board</h1>
+            <nav>
+                <div class="profile-icon">
+                    <a href="index.html">
+                    <img src="user.png" alt="Generic Profile icon">
+                    <br>
+                </a>
+                <p id="username-location"></p>
+                </div>
+                  <!-- The hamburger menu -->
+             <label for="menu" tabindex="0"> 🍔 </label>
+             <input id="menu" type="checkbox" />
+                <ul class="no-bullets">
+                    <li> <a href="index.html">Home</a></li>
+                    <li><a href="https://www.indeed.com/companies?from=gnav-homepage" target="_blank">Company Reviews</a></li>
+                    <li><a href="https://www.indeed.com/career/salaries?from=gnav-homepage" target="_blank">Visit Indeed Companies</a></li>
+                    <li><a href="https://www.indeed.com/career-services/resume-help/?&aceid=&kw=adwords_c_9099621460_15516767951_0_0_pmax&sid=us_googconthajpmax-_c__g_1026398_gclid$_CjwKCAiAopuvBhBCEiwAm8jaMUzJVCvnyDzjUZWLqA1yhNJB-8Eyvf05Y3DSpOfVoJSE-_I5wFv0YRoCs9kQAvD_BwE&gad_source=1&gclid=CjwKCAiAopuvBhBCEiwAm8jaMUzJVCvnyDzjUZWLqA1yhNJB-8Eyvf05Y3DSpOfVoJSE-_I5wFv0YRoCs9kQAvD_BwE&gclsrc=aw.ds" target="_blank">Resume Reviews</a></li>
+                </ul>
+               
+            </nav>
+        </header>
+
+        <div class="main-content">
+
+            <aside> 
+                <div class="skill-header">
+                    <h2>
+                        SKILLS
+                    </h2>
+                    <p>Share your skills with us below!</p>
+                    <form id="skillForm">
+                        <label for="skillInput"></label>
+                        <input type="text" id="skillInput" name="skillInput" placeholder="Enter your skills here">
+                        
+                        <br>
+                        <br>
+                        
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+<hr>
+
+                <div>
+                    <ul class="skill-section-content"></ul>
+                    </ul>
+                </div>
+
+                <div class="inspirational-header">
+                    <h2>
+                        Your Daily Quote Post
+                    </h2>
+                    <div class="inspirational-post-list">
+
+                    </div>
+                </div>
+            </aside>
+
+
+            <section> 
+                <div class="job-spawning">
+                    <div id="post-form">
+                        <textarea id="post-input" placeholder="Type your post here..."></textarea>
+                        <button onclick="addPost()">Submit</button>
+                    </div>
+                      <div id="post-list"></div>
+                    </div>
+                    <footer>
+                        <button class="sort-button">Sorted By Newest Posts At Top</button>
+                        <div class="search-container">
+                            <input type="text" id="searchInput" placeholder="Type your search here...">
+                            <button >Search</button>
+                          </div>
+
+                    </footer>
+                </div>
+                <hr>
+                    
+        
+            
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
